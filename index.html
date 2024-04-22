@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./Assets/CSS/style.css" />
   </head>
   <body>
-    <article>
+    <article class="user-card">
       <button class="ellipsis">
         <i class="fa-solid fa-ellipsis-vertical"></i>
       </button>
@@ -22,33 +22,46 @@
           src="./Assets/IMG/cute-little-cat-with-pink-sweater-generative-ai_147933-2814.jpg.avif"
           alt="User-photo"
         />
-        <a href=""><i class="fa-solid fa-check"></i></a>
-        <h2>Sathish Kumar</h2>
-        <p>UI/UX Mobile Designer</p>
+        <div class="icon-check">
+          <a class="check" href="#"><i class="fa-solid fa-check"></i> </a>
+        </div>
       </header>
-      <section>
-        <section>
-          <p>Projects</p>
-          <p>Following</p>
-          <p>Followers</p>
+      <section class="content-container">
+        <h2>Sathish Kumar</h2>
+        <p class="sub-line-text">UI/UX Mobile Designer</p>
+        <section class="table">
+          <table>
+            <tr>
+              <th>Projects</th>
+              <th>Following</th>
+              <th>Followers</th>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td>159</td>
+              <td>205</td>
+            </tr>
+          </table>
         </section>
-        <section>
-          <p>17</p>
-          <p>159</p>
-          <p>205</p>
-        </section>
-        <p>
+        <p class="text-container">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
-          similique minima? Ipsam iusto consequuntur aut alias ducimus ad
-          pariatur atque.
+          similique minima? Lorem, ipsum dolor.
         </p>
       </section>
       <footer>
-        <a href=""><i class="fa-brands fa-twitter"></i></a>
-        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-        <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
-        <a href=""><i class="fa-brands fa-instagram"></i></a>
-        <button>View Profile</button>
+        <section class="link-container">
+          <a class="tw-link" href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a class="fb-link" href="#"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a class="gp-link" href="#"
+            ><i class="fa-brands fa-google-plus-g"></i
+          ></a>
+          <a class="ins-link" href="#"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </section>
+        <div class="btm-container"><button>View Profile</button></div>
       </footer>
     </article>
   </body>
