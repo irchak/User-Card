@@ -48,11 +48,11 @@ body {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  background-color: rgb(34, 158, 90);
+  background-color: #27bf7a;
   color: white;
   overflow: hidden;
   border-radius: 50%;
-  box-shadow: 0 0 3px white, 0 0 5px rgb(39, 156, 92);
+  box-shadow: 0 0 3px white, 0 0 5px #27bf7a;
   width: 25px;
   height: 25px;
   margin-left: 90px;
@@ -98,4 +98,44 @@ td {
 .link-container,
 .btm-container {
   margin-bottom: 1em;
+}
+
+.tw-link,
+.fb-link,
+.gp-link,
+.ins-link {
+  display: inline-block;
+  padding: 7px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: white;
+  margin: 5px;
+}
+
+.tw-link {
+  background-color: #3f67b7;
+}
+.fb-link {
+  background-color: #1da1f1;
+}
+.gp-link {
+  background-color: #fe785d;
+}
+.ins-link {
+  background-color: #fc0000;
+}
+
+.btm {
+  color: gray;
+  background-color: inherit;
+  padding: 15px 40px;
+  border: 1px solid rgb(224, 220, 220);
+  border-radius: 25px;
+  font-size: 15px;
+}
+
+.btm:hover {
+  background-color: #32b6c0;
+  color: white;
 }
